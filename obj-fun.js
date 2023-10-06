@@ -45,7 +45,7 @@ const person8={
 }
 person8[key9]='sinan.haque63@gmail.com';
 for(key6 in person8){
-    console.log(key,':',person8[key6])
+    console.log(person8[key6])
 }
 
 const key12='name';
@@ -88,3 +88,85 @@ let users=[
 for(let userr of users){
     console.log( userr.firstName);
 }
+
+const students=[
+    {name:'sinan',roll:'171',group:'business'},
+
+    {name:'korim',roll:'172',group:'science'},
+
+    {name:'rohim',roll:'173',group:'arts'}
+
+
+
+]
+const [{name,group},,{roll}]=students;
+
+console.log(name,group);
+console.log( name,roll);
+
+
+
+
+//methods
+
+
+// const multiply=[4,5,7];
+// function number1(multiply,index){
+//     console.log(index)
+//     console.log(multiply*3);
+    
+// }
+// number1(multiply[0],0);
+
+
+// const numbers=[10,5,21,8];
+
+// numbers.forEach(function(number ,index){
+//     console.log(`index is ${index} number is ${number}`)
+// }
+
+
+
+
+// const multyply=(number,index)=>{
+//     console.log(`number is ${number} index is ${index}`)
+// }
+
+numbers=[5,6,7,8]
+
+numbers.forEach(function(number){
+    console.log(number*3);
+})
+
+
+const users2=[
+    {firstname:'sinan haque',age:18},
+    {firstname:'addin haque',age:15},
+    {firstname:'sadbin haque',age:22}
+];
+// users2.forEach(function(user3){
+//     console.log(user3.firstname)
+// })
+
+
+// users2.forEach(function(user3){
+//     console.log(user3.firstname)
+// })
+
+for(user3 of users2){
+    console.log(user3.age)
+    console.log(user3.firstname)
+
+}
+const numbers00=[5,6,7,8]
+
+
+// for(number34 of numbers00){
+//     console.log(number34*5)
+// };
+
+numbers00.forEach(function(number){
+    console.log(number*10)
+
+})
+
