@@ -31,3 +31,5 @@ const users4=[
 
 const output4=users4.map(user5=>user5.firstname);
 console.log(output3);
+
+
