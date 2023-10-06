@@ -23,3 +23,11 @@ const output3=users2.map(user=>user.firstname);
 console.log(output3);
 
 //close
+const users4=[
+    {firstname:'sinan haque',age:18},
+    {firstname:'addin haque',age:15},
+    {firstname:'sadbin haque',age:22}
+]
+
+const output4=users4.map(user5=>user5.firstname);
+console.log(output3);
