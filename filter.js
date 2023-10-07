@@ -12,3 +12,5 @@ const numbers2=[23,24,256,7346,8864,34,2];
 
 const output2=numbers2.filter(number=>number % 2===0);
 console.log(output2);
+
+

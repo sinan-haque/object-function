@@ -14,3 +14,5 @@ const totalAmount=userCard.reduce(function(totalprice,currentvalue2){
     return totalprice + currentvalue2.price;
 },0)
 console.log(totalAmount);
+
+
