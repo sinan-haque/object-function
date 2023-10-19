@@ -175,4 +175,57 @@ console.log('hello world');
 console.log('sinan haque');
 
 
+//some function practise 
+
+// const name0= (nam,nam2)=>nam*nam2
+function name0(){
+    console.log('happy birthday to you.....') 
+}
+name0();
+function math00(){
+console.log(3+30);
+}
+math00();
+const number00=(number)=>{
+    if(number%2===0){
+        return true
+    }else{
+        return false;
+    }
+
+}
+console.log(number00(20));
+
+const anynumber=(name)=>{
+    return name[3];
+
+}
+console.log(anynumber('sinan'));
+
+//oops
+
+function find (array,target){
+    for(let i=0;i<array.length;i++){
+        if(array[i]===target){
+            return i
+        }
+    }
+}
+
+const myArray=[1,2,3,4,5,76,7];
+const ans =find(myArray,3);
+console.log(ans);
+const output13=(nam,nam1)=>nam*nam1;
+console.log(output13(60,40));
+
+var hello='hello world';
+
+console.log(hello);
+{
+    var fname='sinan haque';
+
+}
+console.log(fname);
+//var is function scope
+
 
