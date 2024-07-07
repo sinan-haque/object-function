@@ -14,3 +14,7 @@ const output2=numbers2.filter(number=>number % 2===0);
 console.log(output2);
 
 
+const numbers3 =[23,34,53,53.65];
+const output3=numbers3.filter(number=> number /2==0);
+console.log(outout3);
+
